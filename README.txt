@@ -6,7 +6,7 @@ Description:
 
 This script compares to power laws within a single x-y dataset by iterating through the x-y values to identify datapoints which mark statistically significant different power laws expressed by the data.
 
-Every time instance of BICx_star-BICR in the data produces a print read out at the critical x value ('Porosity' in this script, see Ln 85)
+Every time instance of BICx_star-BICR in the data produces a print read out at the critical x value ('Porosity' in this script, see Ln 86)
 
 	see:
 		Main, I.G., Leonard, T., Papasouliotis, O., Hatton, O., Meredith, P.G., 1999. One slope or two, Detecting statistically significant breaks of slope in geophysical data with application to fracture scaling relationships. Geophys. Res. Lett. 26 (18), 2801–2804.
@@ -21,11 +21,11 @@ Note: Written in Pyton 2.7 and tested in Pyton 3.7
 
 Note: This script was written for Windows.
 
-Note: The script is currently set up to compare the data found in PorPerm2ABLM.csv. Change the file name in Ln 19 for your own CSV file. I provide this .csv file in case you wish to see the necessary data structure to use this script.
+Note: The script is currently set up to compare the data found in PorPerm2ABLM.csv. Change the file name in Ln 20 for your own CSV file. I provide this .csv file in case you wish to see the necessary data structure to use this script.
 
-Note: The columns for the x and y columns (porosity and permeability, respectively) must be relabeled in the code if the column labels are changed from 'porosity' and 'permeability' (Ln 21 and 22). In this version of the script, 'porosity' is the x column and permeability is the y column.
+Note: The columns for the x and y columns (porosity and permeability, respectively) must be relabeled in the code if the column labels are changed from 'porosity' and 'permeability' (Ln 22 and 23). In this version of the script, 'porosity' is the x column and permeability is the y column.
 
-Note: On Ln 80, 'if ltslope > mtslope:' ensures that lower x-value power law was always greater than the higher x-value power law. This line was important for my rock mechanics study as the lower x-value power law needed to be greater than the higher x-value power law. Depending on your data, this line may need to be removed and identation corrected.
+Note: On Ln 81, 'if ltslope > mtslope:' ensures that lower x-value power law was always greater than the higher x-value power law. This line was important for my rock mechanics study as the lower x-value power law needed to be greater than the higher x-value power law. Depending on your data, this line may need to be removed and identation corrected.
 
 Installation:
 
