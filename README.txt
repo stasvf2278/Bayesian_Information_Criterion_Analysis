@@ -33,13 +33,13 @@ The 'import' commands need to be placed at the start of the Python file. The 'ma
 
 Credits:
 
-I, Stanley Mordesky, modeled this script of the explanation of Bayesian Information Criterion Analysis provided by Jamie Farquharson in Farquharson et al. (2015).
+I, stasvf2278, modeled this script of the explanation of Bayesian Information Criterion Analysis provided by J.F. in Farquharson et al. (2015).
 
 License:
 
 MIT License
 
-Copyright (c) 2020 Stanley Mordesky
+Copyright (c) 2020 stasvf2278
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
