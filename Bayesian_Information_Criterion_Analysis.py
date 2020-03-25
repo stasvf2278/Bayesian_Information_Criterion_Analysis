@@ -99,7 +99,8 @@ def main():
                         print("*******************************END OF SERIES*******************************")
         x_star = x_star + 0.01
 
-main()
+if name == "main":
+    main()
 
 
 
